@@ -9,7 +9,7 @@ public class Main {
         int t = inputInt.nextInt();
         if (t < 0) {
             System.out.println("Сейчас очень холодно");
-        } else if (t >= 0 && t <= 16) {
+        } else if (t <= 16) {
             System.out.println("Сейчас прохладно");
         } else {
             System.out.println("Отличный летний денёк!");
